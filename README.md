@@ -50,6 +50,11 @@ Temperatura de operación: -20 ~ 85 ¿
 Capacidad de sobreescritura: > 100.000 veces
 
 
+
+![screenshot_8](https://cloud.githubusercontent.com/assets/25775237/26179705/d4918958-3b2a-11e7-8b87-f0fcc7acdae3.png)
+
+
+
 https://scontent.fbog4-1.fna.fbcdn.net/v/t34.0-12/18554621_1186306914811542_2015486604_n.png?oh=4800e615bc36754da9525beb381beda5&oe=591F595F
 
 
