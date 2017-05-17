@@ -51,7 +51,6 @@ Capacidad de sobreescritura: > 100.000 veces
 
 
 
-![screenshot_8](https://cloud.githubusercontent.com/assets/25775237/26179705/d4918958-3b2a-11e7-8b87-f0fcc7acdae3.png)
 
 
 
