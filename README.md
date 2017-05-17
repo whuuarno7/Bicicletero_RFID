@@ -50,4 +50,7 @@ Temperatura de operación: -20 ~ 85 ¿
 Capacidad de sobreescritura: > 100.000 veces
 
 
+https://scontent.fbog4-1.fna.fbcdn.net/v/t34.0-12/18554621_1186306914811542_2015486604_n.png?oh=4800e615bc36754da9525beb381beda5&oe=591F595F
+
+
 http://articulo.mercadolibre.com.co/MCO-434449516-kit-rfid-rc522-con-lector-llavero-y-tarjeta-para-arduino-_JM
