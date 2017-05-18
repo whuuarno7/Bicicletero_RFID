@@ -1,5 +1,24 @@
 # Bicicletero_RFID
 
+
+#INDICE:
+1.Problema.
+2.Requerimientos del proyecto.
+3.Kit de llvero RFID.
+4.Especifiaciones técnicas.
+5.Características tarjeta.
+6.Características llavero.
+7.Diagrama de flujo general
+8.Perifericos
+9.
+
+
+
+
+
+
+
+
 SISTEMA DE ALARMA PARA BICICLETAS
 
 PROBLEMA: El problema que se busca mitigar con el desarrollo de este proyecto, es el robo de bicicletas en un entorno como el de la Universidad Nacional sede Bogotá, la idea es brindar un sistema que permita dar una alarma rápida cuando se intente retirar del sitio de parqueo las bicicletas. Para ello se usará un tag RFID adherido a la bicicleta que será censado por un lector RFID ubicado en el sitio de parqueo de la bicicleta. Para retirar la bicicleta, será necesario que el usuario, pase por un panel (otro lector RFID) otro tag que estará vinvulado con el que está adherido a su bicicleta.
@@ -54,7 +73,6 @@ Capacidad de sobreescritura: > 100.000 veces
 
 
 
-https://scontent.fbog4-1.fna.fbcdn.net/v/t34.0-12/18554621_1186306914811542_2015486604_n.png?oh=4800e615bc36754da9525beb381beda5&oe=591F595F
 
 
 http://articulo.mercadolibre.com.co/MCO-434449516-kit-rfid-rc522-con-lector-llavero-y-tarjeta-para-arduino-_JM
@@ -66,6 +84,19 @@ http://articulo.mercadolibre.com.co/MCO-434449516-kit-rfid-rc522-con-lector-llav
 
 
 
+
+
+
+
+
+
+
+
+
+![diagrama de bloques general](https://cloud.githubusercontent.com/assets/25775237/26181044/8bcd164e-3b32-11e7-90b0-4669b16d351d.png)
+
+
+![lm32 y perifericos](https://cloud.githubusercontent.com/assets/25775237/26181045/8bdaa11a-3b32-11e7-9549-793cb6322d57.png)
 
 
 ![datapath miso](https://cloud.githubusercontent.com/assets/25775237/26180679/64b3ebd4-3b30-11e7-8bd7-f88e74870154.png)
