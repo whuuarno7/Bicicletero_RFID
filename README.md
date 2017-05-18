@@ -5,15 +5,15 @@
 
 # INDICE:
 
-INDICE:
-1-Problema.
-2-Requerimientos del proyecto.
-3-Kit de llvero RFID.
-4-Especifiaciones técnicas.
-5-Características tarjeta.
-6-Características llavero.
-7-Diagrama de flujo general
-8-Perifericos
+
+1- Problema.
+2- Requerimientos del proyecto.
+3- Kit de llvero RFID.
+4- Especifiaciones técnicas.
+5- Características tarjeta.
+6- Características llavero.
+7- Diagrama de flujo general
+8- Perifericos
 9-
 
 
