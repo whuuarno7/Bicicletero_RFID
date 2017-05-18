@@ -116,6 +116,8 @@ En el diagrama de bloques podemos observar los perifericos qa utilizar y los pro
 Este periférico es utilizado para la comunicación con el sensor RFID para dos propósitos, ingresar a la base de datos un nuevo usuario (carnet o TAG cualquiera), o bien para retirar una bicicleta, lo cual se hace acaercando el carnet o TAG a el sensor que estará ubicado en el tablero del dispositivo.
 
 
+A continuación se muestran los diferentes diagramas que representan los elementos que intervienen en el desarrollo de este periférico, en el cual se usa el protocolo SPI
+
 
 
 ### Diagrama de flujo spi.
@@ -136,6 +138,12 @@ Este periférico es utilizado para la comunicación con el sensor RFID para dos 
 # MISO
 ### Diagrama de flujo miso.
 
+
+
+Cuando activamos el MISO del SPI se transportan datos del esclavo hacia el maestro.Como podemos ver en el diagrama de flujo contamos con dos registros y dependiendo del falnco de subida en SCK se empieza el proceso de toma de datos del esclavo hacia el maestro hasta que el contador Rd es igual a 8
+
+
+
 ![diagrama de flujo miso](https://cloud.githubusercontent.com/assets/25775237/26180688/65768f9a-3b30-11e7-9c4e-6a88c4dcd18c.png)
 
 ### Diagrama de caja miso.
@@ -149,6 +157,12 @@ Este periférico es utilizado para la comunicación con el sensor RFID para dos 
 
 
 # MOSI
+
+Cuando activamos el MOSI del SPI se transportan los datos del maestro hacia el esclavo
+
+
+
+
 
 
 ### Diagrama de flujo mosi.
