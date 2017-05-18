@@ -86,6 +86,10 @@ http://articulo.mercadolibre.com.co/MCO-434449516-kit-rfid-rc522-con-lector-llav
 # Diagrama de flujo general
 
 
+
+cuando la bicicleta sea estacionada en un lugar libre del bicicletero, se empieza el censado por parte del sensor RFID, además se enciende un led rojo. Si se deja de censar la bicicleta, se observa si se ha presentado la tarjeta de indentificación en el panel 
+del bicicletero, si no se ha presentado se activa la alarma, si si se ha presentado se desactiva el censado y se activa un led verde, que indica que puede ser retirada la bicicleta. 
+
 ![diagrama de bloques general](https://cloud.githubusercontent.com/assets/25775237/26181044/8bcd164e-3b32-11e7-90b0-4669b16d351d.png)
 
 
