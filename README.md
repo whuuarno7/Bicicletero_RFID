@@ -1,7 +1,7 @@
 # Bicicletero_RFID
 
 
-#INDICE:
+INDICE:
 1.Problema.
 2.Requerimientos del proyecto.
 3.Kit de llvero RFID.
