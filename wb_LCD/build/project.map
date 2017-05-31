@@ -1,0 +1,182 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'top_LCD'
+
+Design Information
+------------------
+Command Line   : map -pr b -p XC7A100T-CSG324 project.ngd 
+Target Device  : xc7a100t
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : artix7 -- $Revision: 1.55 $
+Mapped Date    : Sun May 15 11:51:58 2016
+
+WARNING:Map:34 - Speed grade not specified.  Using default "-3".
+WARNING:LIT:701 - PAD symbol "numeroInstrucciones<4>" has an undefined
+   IOSTANDARD.
+WARNING:LIT:702 - PAD symbol "numeroInstrucciones<4>" is not constrained (LOC)
+   to a specific location.
+Mapping design into LUTs...
+Writing file project.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 27 secs 
+Total CPU  time at the beginning of Placer: 27 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:c73045c0) REAL time: 29 secs 
+
+Phase 2.7  Design Feasibility Check
+INFO:Place:834 - Only a subset of IOs are locked. Out of 131 IOs, 15 are locked
+   and 116 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+
+ERROR:Place:866 - Not enough valid sites to place the following IOBs:
+   IO Standard: Name = LVCMOS18, VREF = NR, VCCO = 1.80, TERM = NONE, DIR =
+   INPUT, DRIVE_STR = NR
+   	instruccion5<8>
+   	instruccion5<1>
+   	instruccion5<2>
+   	instruccion5<3>
+   	instruccion5<4>
+   	instruccion5<0>
+   	instruccion2<9>
+   	instruccion2<5>
+   	instruccion2<6>
+   	instruccion2<7>
+   	instruccion2<8>
+   	instruccion2<1>
+   	instruccion2<2>
+   	instruccion2<3>
+   	instruccion2<4>
+   	instruccion2<0>
+   	instruccion5<10>
+   	instruccion0<10>
+   	numeroInstrucciones<4>
+   	numeroInstrucciones<3>
+   	numeroInstrucciones<2>
+   	numeroInstrucciones<1>
+   	numeroInstrucciones<0>
+   	instruccion7<10>
+   	instruccion8<9>
+   	instruccion8<5>
+   	instruccion8<6>
+   	instruccion8<7>
+   	instruccion8<8>
+   	instruccion8<1>
+   	instruccion8<2>
+   	instruccion8<3>
+   	instruccion8<4>
+   	instruccion8<0>
+   	instruccion1<10>
+   	instruccion9<9>
+   	instruccion9<5>
+   	instruccion9<6>
+   	instruccion9<7>
+   	instruccion9<8>
+   	instruccion9<1>
+   	instruccion9<2>
+   	instruccion9<3>
+   	instruccion9<4>
+   	instruccion9<0>
+   	instruccion6<9>
+   	instruccion6<5>
+   	instruccion6<6>
+   	instruccion3<10>
+   	instruccion6<7>
+   	instruccion6<8>
+   	instruccion6<1>
+   	instruccion6<2>
+   	instruccion6<3>
+   	instruccion6<4>
+   	instruccion6<0>
+   	instruccion3<9>
+   	instruccion3<5>
+   	instruccion3<6>
+   	instruccion3<7>
+   	instruccion3<8>
+   	instruccion3<1>
+   	instruccion3<2>
+   	instruccion3<3>
+   	instruccion3<4>
+   	instruccion3<0>
+   	instruccion0<9>
+   	instruccion0<5>
+   	instruccion0<6>
+   	instruccion0<7>
+   	instruccion0<8>
+   	instruccion0<1>
+   	instruccion0<2>
+   	instruccion0<3>
+   	instruccion0<4>
+   	instruccion0<0>
+   	instruccion1<9>
+   	instruccion1<5>
+   	instruccion1<6>
+   	instruccion1<7>
+   	instruccion1<8>
+   	instruccion1<1>
+   	instruccion1<2>
+   	instruccion1<3>
+   	instruccion1<4>
+   	instruccion1<0>
+   	instruccion6<10>
+   	instruccion8<10>
+   	instruccion7<9>
+   	instruccion7<5>
+   	instruccion7<6>
+   	instruccion7<7>
+   	instruccion7<8>
+   	instruccion7<1>
+   	instruccion7<2>
+   	instruccion7<3>
+   	instruccion7<4>
+   	instruccion7<0>
+   	instruccion4<9>
+   	instruccion2<10>
+   	instruccion4<5>
+   	instruccion4<6>
+   	instruccion4<7>
+   	instruccion4<8>
+   	instruccion4<1>
+   	instruccion4<2>
+   	instruccion4<3>
+   	instruccion4<4>
+   	instruccion4<0>
+   	instruccion9<10>
+   	instruccion4<10>
+   	instruccion5<9>
+   	instruccion5<5>
+   	instruccion5<6>
+   	instruccion5<7>
+
+   This may be due to either an insufficient number of sites available on the
+   device, too many prohibited sites,
+   or incompatible I/O Standards locked or range constrained to I/O Banks with
+   valid sites.
+       This situation could possibly be resolved by one (or all) of the
+   following actions:
+   a) Grouping IOBs of similar standards into a minimum amount of I/O Banks by
+   using LOC or range constraints.
+   b) Maximizing available I/O Banks resources for special IOBs by choosing
+   lower capacity I/O Banks if possible.
+   c) If applicable, decreasing the number of user prohibited sites or using a
+   larger device.
+
+Phase 2.7  Design Feasibility Check (Checksum:c73045c0) REAL time: 29 secs 
+
+Total REAL time to Placer completion: 29 secs 
+Total CPU  time to Placer completion: 29 secs 
+ERROR:Pack:1654 - The timing-driven placement phase encountered an error.
+
+Mapping completed.
+See MAP report file "project.mrp" for details.
+Problem encountered during the packing phase.
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   3

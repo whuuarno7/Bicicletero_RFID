@@ -1,0 +1,48 @@
+`timescale 1ns / 1ps
+
+
+module byteMISO(
+input clk, input init, input rst, input MISO, output reg[7:0] byteRd, output reg done = 0);
+
+
+reg[3:0] contadorRd = 0;
+
+
+
+always @(posedge clk)
+
+begin
+	if(rst)
+	begin
+		contadorRd = 0;
+		done = 0;
+		//load = 0;
+	end
+	if(init == 1)
+	begin
+		byteRd[0] = MISO;
+		contadorRd = contadorRd + 1;
+		/*if(contadorWr == 0)
+		reg_temp = byteWr;
+		if(load == 1)
+		begin
+		reg_temp = byteWr;
+		load = 0;
+		end
+		*/
+
+		if(contadorRd == 8) //
+		begin
+			contadorRd = 0;
+			done = 1;
+		end
+		else
+		begin
+			byteRd = byteRd << 1;
+			contadorRd = contadorRd;
+			done = 0;
+		end
+	end
+end
+
+endmodule

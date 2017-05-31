@@ -1,0 +1,3 @@
+verilog work ../top_Teclado.v
+verilog work ../datapath_Teclado.v
+verilog work ../fsm_Teclado.v

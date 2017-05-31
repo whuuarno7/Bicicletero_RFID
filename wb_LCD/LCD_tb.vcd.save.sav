@@ -1,0 +1,67 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Sat May 14 21:01:04 2016
+[*]
+[dumpfile] "/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/simulation/top_LCD_TB.vcd"
+[dumpfile_mtime] "Sat May 14 20:24:01 2016"
+[dumpfile_size] 316608050
+[savefile] "/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/LCD_tb.vcd.save.sav"
+[timestart] 1962210000
+[size] 1366 706
+[pos] -174 -58
+*-24.248428 2001280000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top_LCD_TB.
+[treeopen] top_LCD_TB.uut.
+[sst_width] 196
+[signals_width] 340
+[sst_expanded] 1
+[sst_vpaned_height] 187
+@24
+top_LCD_TB.uut.datapath_LCD.instruccion0[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccion1[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccion2[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccion3[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccion4[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccion5[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccion6[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccion7[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccion8[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccion9[10:0]
+top_LCD_TB.uut.datapath_LCD.instruccionAEjecutar[10:0]
+top_LCD_TB.uut.datapath_LCD.contadorInstrucciones[5:0]
+@c00028
+top_LCD_TB.uut.datapath_LCD.salida[10:0]
+@28
+(0)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(1)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(2)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(3)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(4)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(5)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(6)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(7)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(8)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(9)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(10)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+@1401208
+-group_end
+@c00024
+top_LCD_TB.uut.datapath_LCD.salida[10:0]
+@28
+(0)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(1)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(2)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(3)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(4)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(5)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(6)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(7)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(8)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(9)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+(10)top_LCD_TB.uut.datapath_LCD.salida[10:0]
+@1401200
+-group_end
+@22
+top_LCD_TB.uut.fsm.state[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

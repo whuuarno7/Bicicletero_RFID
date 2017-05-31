@@ -1,0 +1,3 @@
+verilog work ../top_LCD.v
+verilog work ../datapath_LCD.v
+verilog work ../fsm_LCD.v

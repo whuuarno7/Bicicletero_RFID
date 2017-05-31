@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 30: Using initial value of <arg fmt="%s" index="1">instruccion10</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 31: Using initial value of <arg fmt="%s" index="1">instruccion11</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 32: Using initial value of <arg fmt="%s" index="1">instruccion12</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 33: Using initial value of <arg fmt="%s" index="1">instruccion13</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 34: Using initial value of <arg fmt="%s" index="1">instruccion14</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 35: Using initial value of <arg fmt="%s" index="1">instruccion15</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 36: Using initial value of <arg fmt="%s" index="1">instruccion16</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 37: Using initial value of <arg fmt="%s" index="1">instruccion17</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 38: Using initial value of <arg fmt="%s" index="1">instruccion18</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 39: Using initial value of <arg fmt="%s" index="1">instruccion19</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 40: Using initial value of <arg fmt="%s" index="1">instruccion20</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/datapath_LCD.v" Line 106: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/fsm_LCD.v" Line 101: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/fsm_LCD.v" Line 110: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/fsm_LCD.v" Line 126: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/juan/Documents/DIGITAL_II/sie/rtl/wb_LCD/fsm_LCD.v" Line 143: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">contadorNano_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">datapath_LCD</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

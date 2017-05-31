@@ -1,0 +1,48 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Mon May 30 20:58:24 2016
+[*]
+[dumpfile] "/home/father/Digital2/bicicletero/sie/simulation/system_tb.vcd"
+[dumpfile_mtime] "Mon May 30 20:51:06 2016"
+[dumpfile_size] 132583555
+[savefile] "/home/father/Digital2/bicicletero/sie/system_tb.vcd.save.sav"
+[timestart] 0
+[size] 1301 744
+[pos] -1 -1
+*-23.476992 10330000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] system_tb.
+[treeopen] system_tb.dut.
+[treeopen] system_tb.dut.gpio0.
+[treeopen] system_tb.dut.LCD0.
+[treeopen] system_tb.dut.LCD0.LCDcore.
+[treeopen] system_tb.dut.SPI0.
+[treeopen] system_tb.dut.SPI0.SPIcore.
+[sst_width] 223
+[signals_width] 260
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@28
+system_tb.dut.LCD0_ack
+system_tb.dut.SPI0_ack
+system_tb.dut.Teclado0_ack
+system_tb.dut.bram0_ack
+system_tb.dut.uart0_ack
+@22
+system_tb.dut.SPI0.chipSelect[7:0]
+@28
+system_tb.dut.entrada1
+system_tb.dut.entrada2
+system_tb.dut.entrada3
+system_tb.dut.entrada4
+system_tb.dut.teclasalida[2:0]
+@22
+system_tb.dut.LCD0_adr[31:0]
+system_tb.dut.uart0.wb_dat_i[31:0]
+@28
+system_tb.dut.LCD0.DONE
+@24
+system_tb.dut.LCD0.LCDcore.datapath_LCD.contadorNano[31:0]
+@22
+system_tb.dut.LCD0.LCDcore.fsm.state[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

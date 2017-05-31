@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Map" num="34" delta="new" >Speed grade not specified.  Using default &quot;<arg fmt="%s" index="1">-3</arg>&quot;.
+</msg>
+
+<msg type="warning" file="LIT" num="701" delta="new" ><arg fmt="%s" index="1">PAD symbol &quot;numeroInstrucciones&lt;4&gt;&quot;</arg> has an undefined IOSTANDARD.
+</msg>
+
+<msg type="warning" file="LIT" num="702" delta="new" ><arg fmt="%s" index="1">PAD symbol &quot;numeroInstrucciones&lt;4&gt;&quot;</arg> is not constrained (LOC) to a specific location.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="new" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="info" file="Pack" num="1716" delta="new" >Initializing temperature to <arg fmt="%0.3f" index="1">85.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">85.000</arg> Celsius)
+</msg>
+
+<msg type="info" file="Pack" num="1720" delta="new" >Initializing voltage to <arg fmt="%0.3f" index="1">0.950</arg> Volts. (default - Range: <arg fmt="%0.3f" index="2">0.950</arg> to <arg fmt="%0.3f" index="3">1.050</arg> Volts)
+</msg>
+
+<msg type="info" file="Map" num="215" delta="new" >The Interim Design Summary has been generated in the MAP Report (.mrp).
+</msg>
+
+<msg type="info" file="Place" num="834" delta="new" >Only a subset of IOs are locked. Out of <arg fmt="%d" index="1">131</arg> IOs, <arg fmt="%d" index="2">15</arg> are locked and <arg fmt="%d" index="3">116</arg> are not locked. <arg fmt="%s" index="4">If you would like to print the names of these IOs, please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1.</arg> 
+</msg>
+
+<msg type="error" file="Place" num="866" delta="new" >Not enough valid sites to place the following IOBs:
+IO Standard: <arg fmt="%s" index="1">Name = LVCMOS18, VREF = NR, VCCO = 1.80, TERM = NONE, DIR = INPUT, DRIVE_STR = NR
+</arg><arg fmt="%s" index="2">	instruccion5&lt;8&gt;
+	instruccion5&lt;1&gt;
+	instruccion5&lt;2&gt;
+	instruccion5&lt;3&gt;
+	instruccion5&lt;4&gt;
+	instruccion5&lt;0&gt;
+	instruccion2&lt;9&gt;
+	instruccion2&lt;5&gt;
+	instruccion2&lt;6&gt;
+	instruccion2&lt;7&gt;
+	instruccion2&lt;8&gt;
+	instruccion2&lt;1&gt;
+	instruccion2&lt;2&gt;
+	instruccion2&lt;3&gt;
+	instruccion2&lt;4&gt;
+	instruccion2&lt;0&gt;
+	instruccion5&lt;10&gt;
+	instruccion0&lt;10&gt;
+	numeroInstrucciones&lt;4&gt;
+	numeroInstrucciones&lt;3&gt;
+	numeroInstrucciones&lt;2&gt;
+	numeroInstrucciones&lt;1&gt;
+	numeroInstrucciones&lt;0&gt;
+	instruccion7&lt;10&gt;
+	instruccion8&lt;9&gt;
+	instruccion8&lt;5&gt;
+	instruccion8&lt;6&gt;
+	instruccion8&lt;7&gt;
+	instruccion8&lt;8&gt;
+	instruccion8&lt;1&gt;
+	instruccion8&lt;2&gt;
+	instruccion8&lt;3&gt;
+	instruccion8&lt;4&gt;
+	instruccion8&lt;0&gt;
+	instruccion1&lt;10&gt;
+	instruccion9&lt;9&gt;
+	instruccion9&lt;5&gt;
+	instruccion9&lt;6&gt;
+	instruccion9&lt;7&gt;
+	instruccion9&lt;8&gt;
+	instruccion9&lt;1&gt;
+	instruccion9&lt;2&gt;
+	instruccion9&lt;3&gt;
+	instruccion9&lt;4&gt;
+	instruccion9&lt;0&gt;
+	instruccion6&lt;9&gt;
+	instruccion6&lt;5&gt;
+	instruccion6&lt;6&gt;
+	instruccion3&lt;10&gt;
+	instruccion6&lt;7&gt;
+	instruccion6&lt;8&gt;
+	instruccion6&lt;1&gt;
+	instruccion6&lt;2&gt;
+	instruccion6&lt;3&gt;
+	instruccion6&lt;4&gt;
+	instruccion6&lt;0&gt;
+	instruccion3&lt;9&gt;
+	instruccion3&lt;5&gt;
+	instruccion3&lt;6&gt;
+	instruccion3&lt;7&gt;
+	instruccion3&lt;8&gt;
+	instruccion3&lt;1&gt;
+	instruccion3&lt;2&gt;
+	instruccion3&lt;3&gt;
+	instruccion3&lt;4&gt;
+	instruccion3&lt;0&gt;
+	instruccion0&lt;9&gt;
+	instruccion0&lt;5&gt;
+	instruccion0&lt;6&gt;
+	instruccion0&lt;7&gt;
+	instruccion0&lt;8&gt;
+	instruccion0&lt;1&gt;
+	instruccion0&lt;2&gt;
+	instruccion0&lt;3&gt;
+	instruccion0&lt;4&gt;
+	instruccion0&lt;0&gt;
+	instruccion1&lt;9&gt;
+	instruccion1&lt;5&gt;
+	instruccion1&lt;6&gt;
+	instruccion1&lt;7&gt;
+	instruccion1&lt;8&gt;
+	instruccion1&lt;1&gt;
+	instruccion1&lt;2&gt;
+	instruccion1&lt;3&gt;
+	instruccion1&lt;4&gt;
+	instruccion1&lt;0&gt;
+	instruccion6&lt;10&gt;
+	instruccion8&lt;10&gt;
+	instruccion7&lt;9&gt;
+	instruccion7&lt;5&gt;
+	instruccion7&lt;6&gt;
+	instruccion7&lt;7&gt;
+	instruccion7&lt;8&gt;
+	instruccion7&lt;1&gt;
+	instruccion7&lt;2&gt;
+	instruccion7&lt;3&gt;
+	instruccion7&lt;4&gt;
+	instruccion7&lt;0&gt;
+	instruccion4&lt;9&gt;
+	instruccion2&lt;10&gt;
+	instruccion4&lt;5&gt;
+	instruccion4&lt;6&gt;
+	instruccion4&lt;7&gt;
+	instruccion4&lt;8&gt;
+	instruccion4&lt;1&gt;
+	instruccion4&lt;2&gt;
+	instruccion4&lt;3&gt;
+	instruccion4&lt;4&gt;
+	instruccion4&lt;0&gt;
+	instruccion9&lt;10&gt;
+	instruccion4&lt;10&gt;
+	instruccion5&lt;9&gt;
+	instruccion5&lt;5&gt;
+	instruccion5&lt;6&gt;
+	instruccion5&lt;7&gt;
+
+</arg>This may be due to either an insufficient number of sites available on the device, too many prohibited sites,
+or incompatible I/O Standards locked or range constrained to I/O Banks with valid sites.
+    This situation could possibly be resolved by one (or all) of the following actions:
+a) Grouping IOBs of similar standards into a minimum amount of I/O Banks by using LOC or range constraints.
+b) Maximizing available I/O Banks resources for special IOBs by choosing lower capacity I/O Banks if possible.
+c) If applicable, decreasing the number of user prohibited sites or using a larger device.
+</msg>
+
+<msg type="error" file="Pack" num="1654" delta="new" >The timing-driven placement phase encountered an error.
+</msg>
+
+</messages>
+

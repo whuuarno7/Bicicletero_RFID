@@ -1,0 +1,50 @@
+`timescale 1ns / 1ps
+
+
+module byteMOSI(
+input clk, input init, input rst, input[7:0] byteWr, output MOSI, output reg done = 0);
+
+reg load = 1;
+//reg flag = 0;
+reg[3:0] contadorWr = 0;
+reg[7:0] reg_temp;
+assign MOSI = ~load ? reg_temp[7] : byteWr[7];
+
+
+
+always @(negedge clk)
+begin
+
+	if(rst)
+	begin
+		contadorWr = 0;
+		done = 0;
+		load = 1;
+	end
+	if(init == 1)
+	begin
+		//flag = 1;
+		done = 0;
+		//reg_temp = byteWr;
+		//if(contadorWr == 0)
+		if(load == 1)
+		begin
+			reg_temp = byteWr;
+			load = 0;
+		end
+
+		reg_temp = reg_temp << 1;
+		contadorWr = contadorWr + 1;
+
+		if(contadorWr == 8)
+		begin
+			contadorWr = 0;
+			//flag = 0;
+			load = 1;
+			done = 1;
+		end
+	end
+
+end
+
+endmodule

@@ -1,0 +1,23 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Thu May 12 23:54:19 2016
+[*]
+[dumpfile] "/home/father/Digital2/bicicletero/sie/rtl/wb_SPI/simulation/wb_SPI_TB.vcd"
+[dumpfile_mtime] "Thu May 12 23:53:03 2016"
+[dumpfile_size] 151462624
+[savefile] "/home/father/Digital2/bicicletero/sie/rtl/wb_SPI/wb_SPI_tb.vcd.save.sav"
+[timestart] 0
+[size] 1301 744
+[pos] -302 -117
+*0.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] wb_SPI_TB.
+[sst_width] 223
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 211
+@22
+wb_SPI_TB.uut.address[7:0]
+@29
+wb_SPI_TB.uut.clk
+[pattern_trace] 1
+[pattern_trace] 0
