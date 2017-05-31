@@ -1,0 +1,77 @@
+00000003Toca hacer soft_reset8077
+1400Escribe: 2607
+entro a verificar
+ha cambiado algo
+
+
+07
+00status=MI_OK, todo va bien
+la cantidad de datos n a leer es: 02---------
+ Dato leido de FIFO: 04
+ Dato leido de FIFO: 00
+---------
+Bits validos00
+01
+77
+6400Escribe: 932000
+entro a verificar
+ha cambiado algo
+
+
+00
+00status=MI_OK, todo va bien
+la cantidad de datos n a leer es: 05---------
+ Dato leido de FIFO: D5
+ Dato leido de FIFO: 51
+ Dato leido de FIFO: EF
+ Dato leido de FIFO: 55
+ Dato leido de FIFO: 3E
+---------
+Bits validos00
+00000000No se ha pulsado nada
+00000000No se ha pulsado nada
+00000000No se ha pulsado nada
+00000000No se ha pulsado nada
+00000000No se ha pulsado nada
+00000000No se ha pulsado nada
+00000000No se ha pulsado nada
+00000000No se ha pulsado nada
+00000000No se ha pulsado nada
+00000003Toca hacer soft_reset8077
+1400Escribe: 2607
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+
+entro a verificar
+TIMEOUT, nada en 25ms
+
+07
+00status=MI_OK, todo va bien
+status=NOTAGERR, NO todo va bien
+
+NO hay tarjeta
+00000000No se ha pulsado nada
+
